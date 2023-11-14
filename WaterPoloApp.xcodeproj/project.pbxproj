@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB641D72B02AC7F000C2659 /* WaterPoloAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */; };
+		5EB641D92B02AC7F000C2659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D82B02AC7F000C2659 /* ContentView.swift */; };
+		5EB641DB2B02AC81000C2659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB641DA2B02AC81000C2659 /* Assets.xcassets */; };
+		5EB641DE2B02AC81000C2659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB641DD2B02AC81000C2659 /* Preview Assets.xcassets */; };
+		5EB641E82B02AC81000C2659 /* WaterPoloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641E72B02AC81000C2659 /* WaterPoloAppTests.swift */; };
+		5EB641F22B02AC81000C2659 /* WaterPoloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641F12B02AC81000C2659 /* WaterPoloAppUITests.swift */; };
+		5EB641F42B02AC81000C2659 /* WaterPoloAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641F32B02AC81000C2659 /* WaterPoloAppUITestsLaunchTests.swift */; };
+		5EB642042B02AFCE000C2659 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EB642032B02AFCE000C2659 /* FirebaseFirestoreSwift */; };
+		5EB642062B02B011000C2659 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB642052B02B011000C2659 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB641E42B02AC81000C2659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB641CB2B02AC7F000C2659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB641D22B02AC7F000C2659;
+			remoteInfo = WaterPoloApp;
+		};
+		5EB641EE2B02AC81000C2659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB641CB2B02AC7F000C2659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB641D22B02AC7F000C2659;
+			remoteInfo = WaterPoloApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB641D32B02AC7F000C2659 /* WaterPoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterPoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppApp.swift; sourceTree = "<group>"; };
+		5EB641D82B02AC7F000C2659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EB641DA2B02AC81000C2659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB641DD2B02AC81000C2659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EB641E32B02AC81000C2659 /* WaterPoloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterPoloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB641E72B02AC81000C2659 /* WaterPoloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppTests.swift; sourceTree = "<group>"; };
+		5EB641ED2B02AC81000C2659 /* WaterPoloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterPoloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB641F12B02AC81000C2659 /* WaterPoloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppUITests.swift; sourceTree = "<group>"; };
+		5EB641F32B02AC81000C2659 /* WaterPoloAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EB642052B02B011000C2659 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB641D02B02AC7F000C2659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB642042B02AFCE000C2659 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641E02B02AC81000C2659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641EA2B02AC81000C2659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB641CA2B02AC7F000C2659 = {
+			isa = PBXGroup;
+			children = (
+				5EB641D52B02AC7F000C2659 /* WaterPoloApp */,
+				5EB641E62B02AC81000C2659 /* WaterPoloAppTests */,
+				5EB641F02B02AC81000C2659 /* WaterPoloAppUITests */,
+				5EB641D42B02AC7F000C2659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB641D42B02AC7F000C2659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB641D32B02AC7F000C2659 /* WaterPoloApp.app */,
+				5EB641E32B02AC81000C2659 /* WaterPoloAppTests.xctest */,
+				5EB641ED2B02AC81000C2659 /* WaterPoloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB641D52B02AC7F000C2659 /* WaterPoloApp */ = {
+			isa = PBXGroup;
+			children = (
+				5EB642052B02B011000C2659 /* GoogleService-Info.plist */,
+				5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */,
+				5EB641D82B02AC7F000C2659 /* ContentView.swift */,
+				5EB641DA2B02AC81000C2659 /* Assets.xcassets */,
+				5EB641DC2B02AC81000C2659 /* Preview Content */,
+			);
+			path = WaterPoloApp;
+			sourceTree = "<group>";
+		};
+		5EB641DC2B02AC81000C2659 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EB641DD2B02AC81000C2659 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EB641E62B02AC81000C2659 /* WaterPoloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB641E72B02AC81000C2659 /* WaterPoloAppTests.swift */,
+			);
+			path = WaterPoloAppTests;
+			sourceTree = "<group>";
+		};
+		5EB641F02B02AC81000C2659 /* WaterPoloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB641F12B02AC81000C2659 /* WaterPoloAppUITests.swift */,
+				5EB641F32B02AC81000C2659 /* WaterPoloAppUITestsLaunchTests.swift */,
+			);
+			path = WaterPoloAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB641D22B02AC7F000C2659 /* WaterPoloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB641F72B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloApp" */;
+			buildPhases = (
+				5EB641CF2B02AC7F000C2659 /* Sources */,
+				5EB641D02B02AC7F000C2659 /* Frameworks */,
+				5EB641D12B02AC7F000C2659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterPoloApp;
+			packageProductDependencies = (
+				5EB642032B02AFCE000C2659 /* FirebaseFirestoreSwift */,
+			);
+			productName = WaterPoloApp;
+			productReference = 5EB641D32B02AC7F000C2659 /* WaterPoloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB641E22B02AC81000C2659 /* WaterPoloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB641FA2B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloAppTests" */;
+			buildPhases = (
+				5EB641DF2B02AC81000C2659 /* Sources */,
+				5EB641E02B02AC81000C2659 /* Frameworks */,
+				5EB641E12B02AC81000C2659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB641E52B02AC81000C2659 /* PBXTargetDependency */,
+			);
+			name = WaterPoloAppTests;
+			productName = WaterPoloAppTests;
+			productReference = 5EB641E32B02AC81000C2659 /* WaterPoloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB641EC2B02AC81000C2659 /* WaterPoloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB641FD2B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloAppUITests" */;
+			buildPhases = (
+				5EB641E92B02AC81000C2659 /* Sources */,
+				5EB641EA2B02AC81000C2659 /* Frameworks */,
+				5EB641EB2B02AC81000C2659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB641EF2B02AC81000C2659 /* PBXTargetDependency */,
+			);
+			name = WaterPoloAppUITests;
+			productName = WaterPoloAppUITests;
+			productReference = 5EB641ED2B02AC81000C2659 /* WaterPoloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB641CB2B02AC7F000C2659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5EB641D22B02AC7F000C2659 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5EB641E22B02AC81000C2659 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5EB641D22B02AC7F000C2659;
+					};
+					5EB641EC2B02AC81000C2659 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5EB641D22B02AC7F000C2659;
+					};
+				};
+			};
+			buildConfigurationList = 5EB641CE2B02AC7F000C2659 /* Build configuration list for PBXProject "WaterPoloApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB641CA2B02AC7F000C2659;
+			packageReferences = (
+				5EB642022B02AFCE000C2659 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5EB641D42B02AC7F000C2659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB641D22B02AC7F000C2659 /* WaterPoloApp */,
+				5EB641E22B02AC81000C2659 /* WaterPoloAppTests */,
+				5EB641EC2B02AC81000C2659 /* WaterPoloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB641D12B02AC7F000C2659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB641DE2B02AC81000C2659 /* Preview Assets.xcassets in Resources */,
+				5EB641DB2B02AC81000C2659 /* Assets.xcassets in Resources */,
+				5EB642062B02B011000C2659 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641E12B02AC81000C2659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641EB2B02AC81000C2659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB641CF2B02AC7F000C2659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB641D92B02AC7F000C2659 /* ContentView.swift in Sources */,
+				5EB641D72B02AC7F000C2659 /* WaterPoloAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641DF2B02AC81000C2659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB641E82B02AC81000C2659 /* WaterPoloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB641E92B02AC81000C2659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB641F42B02AC81000C2659 /* WaterPoloAppUITestsLaunchTests.swift in Sources */,
+				5EB641F22B02AC81000C2659 /* WaterPoloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB641E52B02AC81000C2659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB641D22B02AC7F000C2659 /* WaterPoloApp */;
+			targetProxy = 5EB641E42B02AC81000C2659 /* PBXContainerItemProxy */;
+		};
+		5EB641EF2B02AC81000C2659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB641D22B02AC7F000C2659 /* WaterPoloApp */;
+			targetProxy = 5EB641EE2B02AC81000C2659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EB641F52B02AC81000C2659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB641F62B02AC81000C2659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB641F82B02AC81000C2659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterPoloApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB641F92B02AC81000C2659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterPoloApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EB641FB2B02AC81000C2659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterPoloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterPoloApp";
+			};
+			name = Debug;
+		};
+		5EB641FC2B02AC81000C2659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterPoloApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterPoloApp";
+			};
+			name = Release;
+		};
+		5EB641FE2B02AC81000C2659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterPoloApp;
+			};
+			name = Debug;
+		};
+		5EB641FF2B02AC81000C2659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ26AQG5XU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatteoDallOlmo.WaterPoloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterPoloApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB641CE2B02AC7F000C2659 /* Build configuration list for PBXProject "WaterPoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB641F52B02AC81000C2659 /* Debug */,
+				5EB641F62B02AC81000C2659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB641F72B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB641F82B02AC81000C2659 /* Debug */,
+				5EB641F92B02AC81000C2659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB641FA2B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB641FB2B02AC81000C2659 /* Debug */,
+				5EB641FC2B02AC81000C2659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB641FD2B02AC81000C2659 /* Build configuration list for PBXNativeTarget "WaterPoloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB641FE2B02AC81000C2659 /* Debug */,
+				5EB641FF2B02AC81000C2659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EB642022B02AFCE000C2659 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EB642032B02AFCE000C2659 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EB642022B02AFCE000C2659 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5EB641CB2B02AC7F000C2659 /* Project object */;
+}
