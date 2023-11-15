@@ -27,6 +27,7 @@
 		5EA2BD832B043D280004FCC3 /* TeamLogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD772B043D280004FCC3 /* TeamLogListView.swift */; };
 		5EA2BD842B043D280004FCC3 /* TeamStatAttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD782B043D280004FCC3 /* TeamStatAttributeView.swift */; };
 		5EA2BD852B043D280004FCC3 /* Player0StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD792B043D280004FCC3 /* Player0StatsView.swift */; };
+		5EA2BD8A2B0444DC0004FCC3 /* WapoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2BD892B0444DC0004FCC3 /* WapoIcon.png */; };
 		5EB641D72B02AC7F000C2659 /* WaterPoloAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */; };
 		5EB641D92B02AC7F000C2659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D82B02AC7F000C2659 /* ContentView.swift */; };
 		5EB641DB2B02AC81000C2659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB641DA2B02AC81000C2659 /* Assets.xcassets */; };
@@ -76,6 +77,7 @@
 		5EA2BD772B043D280004FCC3 /* TeamLogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamLogListView.swift; sourceTree = "<group>"; };
 		5EA2BD782B043D280004FCC3 /* TeamStatAttributeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamStatAttributeView.swift; sourceTree = "<group>"; };
 		5EA2BD792B043D280004FCC3 /* Player0StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player0StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD892B0444DC0004FCC3 /* WapoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WapoIcon.png; sourceTree = "<group>"; };
 		5EB641D32B02AC7F000C2659 /* WaterPoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterPoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppApp.swift; sourceTree = "<group>"; };
 		5EB641D82B02AC7F000C2659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				5EB642052B02B011000C2659 /* GoogleService-Info.plist */,
+				5EA2BD892B0444DC0004FCC3 /* WapoIcon.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				5EB641DE2B02AC81000C2659 /* Preview Assets.xcassets in Resources */,
 				5EB641DB2B02AC81000C2659 /* Assets.xcassets in Resources */,
 				5EB642062B02B011000C2659 /* GoogleService-Info.plist in Resources */,
+				5EA2BD8A2B0444DC0004FCC3 /* WapoIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

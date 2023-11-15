@@ -19,19 +19,25 @@ struct StartView: View {
                 Spacer()
                 VStack {
                     
-                    Text("HW Water Polo")
+                    Text("Harvard-Westlake")
                         .fontWeight(.bold)
                         .font(.largeTitle)
                     
-                    Spacer()
+                    Image("WapoIcon")
+                        .resizable()
+                        .frame(width: geometry.size.width/3.5, height: geometry.size.width/3.5)
+                    
+                    Text("Water Polo")
+                        .fontWeight(.bold)
+                        .font(.largeTitle)
+                    
+                    HStack {
+                         Spacer()
+                    }.frame(width: geometry.size.width, height: geometry.size.height/5.5, alignment: .center)
                     
                     Text("Login")
                         .fontWeight(.medium)
                         .font(.largeTitle)
-                    
-                    HStack {
-                        Spacer()
-                    }.frame(width: geometry.size.width, height: geometry.size.height/3, alignment: .center)
                     
                     VStack(spacing: 0) {
                         
