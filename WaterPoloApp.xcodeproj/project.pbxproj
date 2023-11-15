@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA2BD392B043B090004FCC3 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD382B043B090004FCC3 /* AdminView.swift */; };
+		5EA2BD3B2B043B440004FCC3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD3A2B043B440004FCC3 /* StartView.swift */; };
+		5EA2BD3D2B043B7D0004FCC3 /* KeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD3C2B043B7D0004FCC3 /* KeyValue.swift */; };
+		5EA2BD412B043BAE0004FCC3 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD402B043BAE0004FCC3 /* Shot.swift */; };
+		5EA2BD692B043D250004FCC3 /* EvenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD652B043D250004FCC3 /* EvenView.swift */; };
+		5EA2BD6A2B043D250004FCC3 /* FiveManView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD662B043D250004FCC3 /* FiveManView.swift */; };
+		5EA2BD6B2B043D250004FCC3 /* LogShotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD672B043D250004FCC3 /* LogShotsView.swift */; };
+		5EA2BD6C2B043D250004FCC3 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD682B043D250004FCC3 /* GoalView.swift */; };
+		5EA2BD7A2B043D280004FCC3 /* Team1StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD6E2B043D280004FCC3 /* Team1StatsView.swift */; };
+		5EA2BD7B2B043D280004FCC3 /* Team0StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD6F2B043D280004FCC3 /* Team0StatsView.swift */; };
+		5EA2BD7C2B043D280004FCC3 /* Team2StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD702B043D280004FCC3 /* Team2StatsView.swift */; };
+		5EA2BD7D2B043D280004FCC3 /* Team3StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD712B043D280004FCC3 /* Team3StatsView.swift */; };
+		5EA2BD7E2B043D280004FCC3 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD722B043D280004FCC3 /* ResultsView.swift */; };
+		5EA2BD7F2B043D280004FCC3 /* Player2StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD732B043D280004FCC3 /* Player2StatsView.swift */; };
+		5EA2BD802B043D280004FCC3 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD742B043D280004FCC3 /* PlayerListView.swift */; };
+		5EA2BD812B043D280004FCC3 /* Player3StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD752B043D280004FCC3 /* Player3StatsView.swift */; };
+		5EA2BD822B043D280004FCC3 /* Player1StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD762B043D280004FCC3 /* Player1StatsView.swift */; };
+		5EA2BD832B043D280004FCC3 /* TeamLogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD772B043D280004FCC3 /* TeamLogListView.swift */; };
+		5EA2BD842B043D280004FCC3 /* TeamStatAttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD782B043D280004FCC3 /* TeamStatAttributeView.swift */; };
+		5EA2BD852B043D280004FCC3 /* Player0StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2BD792B043D280004FCC3 /* Player0StatsView.swift */; };
 		5EB641D72B02AC7F000C2659 /* WaterPoloAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */; };
 		5EB641D92B02AC7F000C2659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB641D82B02AC7F000C2659 /* ContentView.swift */; };
 		5EB641DB2B02AC81000C2659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB641DA2B02AC81000C2659 /* Assets.xcassets */; };
@@ -36,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EA2BD382B043B090004FCC3 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		5EA2BD3A2B043B440004FCC3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		5EA2BD3C2B043B7D0004FCC3 /* KeyValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValue.swift; sourceTree = "<group>"; };
+		5EA2BD402B043BAE0004FCC3 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		5EA2BD652B043D250004FCC3 /* EvenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvenView.swift; sourceTree = "<group>"; };
+		5EA2BD662B043D250004FCC3 /* FiveManView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveManView.swift; sourceTree = "<group>"; };
+		5EA2BD672B043D250004FCC3 /* LogShotsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogShotsView.swift; sourceTree = "<group>"; };
+		5EA2BD682B043D250004FCC3 /* GoalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		5EA2BD6E2B043D280004FCC3 /* Team1StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team1StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD6F2B043D280004FCC3 /* Team0StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team0StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD702B043D280004FCC3 /* Team2StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team2StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD712B043D280004FCC3 /* Team3StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team3StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD722B043D280004FCC3 /* ResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		5EA2BD732B043D280004FCC3 /* Player2StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player2StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD742B043D280004FCC3 /* PlayerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		5EA2BD752B043D280004FCC3 /* Player3StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player3StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD762B043D280004FCC3 /* Player1StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player1StatsView.swift; sourceTree = "<group>"; };
+		5EA2BD772B043D280004FCC3 /* TeamLogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamLogListView.swift; sourceTree = "<group>"; };
+		5EA2BD782B043D280004FCC3 /* TeamStatAttributeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamStatAttributeView.swift; sourceTree = "<group>"; };
+		5EA2BD792B043D280004FCC3 /* Player0StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player0StatsView.swift; sourceTree = "<group>"; };
 		5EB641D32B02AC7F000C2659 /* WaterPoloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterPoloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPoloAppApp.swift; sourceTree = "<group>"; };
 		5EB641D82B02AC7F000C2659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +115,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EA2BD642B043D250004FCC3 /* LoggingShots */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2BD652B043D250004FCC3 /* EvenView.swift */,
+				5EA2BD662B043D250004FCC3 /* FiveManView.swift */,
+				5EA2BD672B043D250004FCC3 /* LogShotsView.swift */,
+				5EA2BD682B043D250004FCC3 /* GoalView.swift */,
+			);
+			path = LoggingShots;
+			sourceTree = "<group>";
+		};
+		5EA2BD6D2B043D280004FCC3 /* ViewingShots  */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2BD6E2B043D280004FCC3 /* Team1StatsView.swift */,
+				5EA2BD6F2B043D280004FCC3 /* Team0StatsView.swift */,
+				5EA2BD702B043D280004FCC3 /* Team2StatsView.swift */,
+				5EA2BD712B043D280004FCC3 /* Team3StatsView.swift */,
+				5EA2BD722B043D280004FCC3 /* ResultsView.swift */,
+				5EA2BD732B043D280004FCC3 /* Player2StatsView.swift */,
+				5EA2BD742B043D280004FCC3 /* PlayerListView.swift */,
+				5EA2BD752B043D280004FCC3 /* Player3StatsView.swift */,
+				5EA2BD762B043D280004FCC3 /* Player1StatsView.swift */,
+				5EA2BD772B043D280004FCC3 /* TeamLogListView.swift */,
+				5EA2BD782B043D280004FCC3 /* TeamStatAttributeView.swift */,
+				5EA2BD792B043D280004FCC3 /* Player0StatsView.swift */,
+			);
+			path = "ViewingShots ";
+			sourceTree = "<group>";
+		};
+		5EA2BD862B0441C50004FCC3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5EB642052B02B011000C2659 /* GoogleService-Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		5EB641CA2B02AC7F000C2659 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +176,16 @@
 		5EB641D52B02AC7F000C2659 /* WaterPoloApp */ = {
 			isa = PBXGroup;
 			children = (
-				5EB642052B02B011000C2659 /* GoogleService-Info.plist */,
+				5EA2BD862B0441C50004FCC3 /* Assets */,
 				5EB641D62B02AC7F000C2659 /* WaterPoloAppApp.swift */,
 				5EB641D82B02AC7F000C2659 /* ContentView.swift */,
+				5EA2BD382B043B090004FCC3 /* AdminView.swift */,
+				5EA2BD3A2B043B440004FCC3 /* StartView.swift */,
+				5EA2BD3C2B043B7D0004FCC3 /* KeyValue.swift */,
+				5EA2BD402B043BAE0004FCC3 /* Shot.swift */,
 				5EB641DA2B02AC81000C2659 /* Assets.xcassets */,
+				5EA2BD642B043D250004FCC3 /* LoggingShots */,
+				5EA2BD6D2B043D280004FCC3 /* ViewingShots  */,
 				5EB641DC2B02AC81000C2659 /* Preview Content */,
 			);
 			path = WaterPoloApp;
@@ -269,8 +353,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA2BD7C2B043D280004FCC3 /* Team2StatsView.swift in Sources */,
+				5EA2BD692B043D250004FCC3 /* EvenView.swift in Sources */,
 				5EB641D92B02AC7F000C2659 /* ContentView.swift in Sources */,
+				5EA2BD7A2B043D280004FCC3 /* Team1StatsView.swift in Sources */,
+				5EA2BD3D2B043B7D0004FCC3 /* KeyValue.swift in Sources */,
+				5EA2BD7D2B043D280004FCC3 /* Team3StatsView.swift in Sources */,
 				5EB641D72B02AC7F000C2659 /* WaterPoloAppApp.swift in Sources */,
+				5EA2BD412B043BAE0004FCC3 /* Shot.swift in Sources */,
+				5EA2BD6A2B043D250004FCC3 /* FiveManView.swift in Sources */,
+				5EA2BD842B043D280004FCC3 /* TeamStatAttributeView.swift in Sources */,
+				5EA2BD812B043D280004FCC3 /* Player3StatsView.swift in Sources */,
+				5EA2BD6B2B043D250004FCC3 /* LogShotsView.swift in Sources */,
+				5EA2BD802B043D280004FCC3 /* PlayerListView.swift in Sources */,
+				5EA2BD7F2B043D280004FCC3 /* Player2StatsView.swift in Sources */,
+				5EA2BD7B2B043D280004FCC3 /* Team0StatsView.swift in Sources */,
+				5EA2BD6C2B043D250004FCC3 /* GoalView.swift in Sources */,
+				5EA2BD822B043D280004FCC3 /* Player1StatsView.swift in Sources */,
+				5EA2BD832B043D280004FCC3 /* TeamLogListView.swift in Sources */,
+				5EA2BD852B043D280004FCC3 /* Player0StatsView.swift in Sources */,
+				5EA2BD392B043B090004FCC3 /* AdminView.swift in Sources */,
+				5EA2BD7E2B043D280004FCC3 /* ResultsView.swift in Sources */,
+				5EA2BD3B2B043B440004FCC3 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

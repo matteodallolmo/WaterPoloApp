@@ -25,7 +25,7 @@ struct WaterPoloAppApp: App {
   var body: some Scene {
     WindowGroup {
       NavigationView {
-        ContentView()
+        StartView()
       }
     }
   }
